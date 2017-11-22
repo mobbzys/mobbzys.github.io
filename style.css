@@ -220,6 +220,13 @@ hr.divider {
 	   	text-align: center;
 	}
 
+	/* CONTAINERS */
+	.container {
+		width: 80%;
+	    padding: 0 15px 0;
+	    margin: 0 auto 0;
+	}
+
 	/* TITLE */
 	.title {
 		font-size: 32px;
@@ -248,5 +255,27 @@ hr.divider {
 		margin-right: 150px;
 	}
 
+	/* BUTTONS */
+	.about-button { 
+		font-size: 14px;
+	}
+	.portfolio-button {
+		font-size: 14px;
+		padding: 20px;
+		color:  #E7ECEF;
+		background-color: #4A4C4B;
+		font-weight: 900;
+	}
+
+
+}
+
+@media only screen and (max-width: 400px) {
+	
+	/* MAIN */
+
+	.toogle-text {
+		padding: 0;
+	}
 
 }
